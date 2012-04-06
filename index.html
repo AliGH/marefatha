@@ -1,0 +1,106 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="دین پژوهی" />
+<meta name="keywords" content="اسلام, قرآن, نماز , عبادت" />
+<title>صفحه اصلی</title>
+<base target="_blank" />
+<link type="text/css" rel="stylesheet" href="css/stylesheet.css"/>
+<link type="text/css" rel="stylesheet" href="css/fonts.css">
+</head>
+<body lang="fa">
+<script type="text/javascript">
+
+var i=0;
+
+function go2pic(n){
+	i=n;
+	n*=-961;
+	document.getElementById('scroll').style.left=n+'px';
+}
+
+function nextpic(n){
+	i+=n;
+	if(i>3) i=0;
+	if(i<0) i=3;
+	go2pic(i);
+}
+
+setInterval('nextpic(1)',3000);
+</script>
+<div class="body">
+	<div class="container-menu">
+		<div class="shadow">
+			<div class="menu">
+				<div class="left"><span id="span">دین</span> پژوهی</div>
+				<div class="right">
+					<ul>
+						<li><a href="index.html">خانه</a></li>
+						<li><a href="">موضوعات</a> <img id="arrow" src="images/menu-marker.gif"  />
+							<ul>
+								<li><a href="pray.html">عبادت</a></li>
+								<li><a href="quran.html">قرآن</a></li>
+								<li><a href="hmahdi.html">مهدویت</a></li>
+							</ul>
+						</li>
+						<li><a href="contact.html">ارتباط با ما</a></li>
+						<li><a href="about.html">درباره ما</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container-banner">
+		<div class="banner">
+			<div class="left" onclick="nextpic(-1)"></div>
+			<div class="right" onclick="nextpic(1)"></div>
+			<div class="images">
+				<div class="show">
+					<div id="scroll">
+						<div class="img1"></div>
+						<div class="img2"></div>
+						<div class="img3"></div>
+						<div class="img4"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container-subbanner">
+		<div class="subbanner">
+			<div class="left">
+				<div class="subject"><a href="hmahdi.html">حضرت مهدی از دیگاه معرفت ها</a></div>
+				<div class="image"></div>
+				<div class="about">
+					<p>پس از فوت امام حسن عسکری برادر ایشان جعفر بن علی ملقّب به جعفر کذّاب اعلام کرد که امام شیعیان فرزندی نداشته ‌است و وی جانشین برادر می باشد؛ ولی هنگام نماز گزاردن بر بدن حسن عسکری، .... </p>
+				</div>
+				<div class="readmore"><a href="hmahdi.html">ادامه مطلب</a></div>
+			</div>
+			<div class="right">
+				<div class="subject"><a href="pray.html">جایگاه عبادت از دیگاه معرفت ها</a></div>
+				<div class="image"></div>
+				<div class="about">
+					<p> انسان تا زماني که هشيار هست نمي‌تواند کار خوبي انجام دهد، موقعي از انسان کار خوبي سر مي‌زند که انسان بيهوش باشد، هشياري و توجه‌کردن نسبت به خود و خودخواهي باعث مي‌شود که تمام عبادتها.... </p>
+				</div>
+				<div class="readmore"><a href="pray.html">ادامه مطلب</a></div>
+			</div>
+			<div class="center">
+				<div class="subject"><a href="quran.html">قرآن از دیگاه معرفت ها</a></div>
+				<div class="image"></div>
+				<div class="about">
+					<p>منظور از دلرباي برتر الله است و برجسته‌ترين ويژگي الله مهرباني و دلسوزي است. «در هر کاري با مهرباني و دلسوزي وارد شويد» اقرا باسم ربک الذي خلق عالم هستي همان کتاب خداست که ...</p>
+				</div>
+				<div class="readmore"><a href="quran.html">ادامه مطلب</a></div>
+			</div>
+		</div>
+	</div>
+	<div class="container-footer">
+		<div class="footer">
+			<div class="footermenu"> <a href="#"><img src="images/rss.png" width="31" height="32" alt="rss" title="RSS" /></a> <a href="#"><img src="images/facebook.png" width="31" height="32" alt="rss" title="FACEBOOK" /></a> <a href="#"><img src="images/plus.png" width="31" height="32" alt="rss" title="1+" /></a> </div>
+			<div id="copy"><span id="span">دین</span> پژوهی &copy; 2011</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>
