@@ -259,6 +259,7 @@ div.form input{
 	display:block;
 	margin:5px;
 	padding:3px 5px;
+	-webkit-transition:700ms all;
 }
 
 div.form input[type=text]{
@@ -285,7 +286,7 @@ div.form input[type=text].ok{
 
 div.form input[type=text].nok{
 	background-color:#FFECEC;
-	border:1px dashed #FF4848;
+	border-color: #FF4848;
 }
 
 div.form textarea{
@@ -314,7 +315,7 @@ div.form textarea.ok{
 
 div.form textarea.nok{
 	background-color:#FFECEC;
-	border:1px dashed #FF4848;
+	border-color:#FF4848;
 }
 
 div.form input[type=submit]{
