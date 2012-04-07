@@ -237,11 +237,12 @@ background-color:rgba(132,124,107,0.8);
 }
 
 div.contact-image{
-	background-image:url(../images/contactus.jpg);
+	background-image:url(../images/map.png);
 	height:310px;
 	width:400px;
 	float:left;
-	margin-top:70px;
+	margin-left:12px;
+	margin-top:85px;
 	-webkit-border-radius:2px;
 }
 
@@ -325,6 +326,7 @@ div.form input[type=submit]{
 	border: 0;
 	margin-top:10px;
 	cursor:pointer;
+	font-weight:bold;
 }
 
 div.form input[type=submit]:hover{
